@@ -17,7 +17,7 @@ application = get_wsgi_application()
 application = DjangoWhiteNoise(application)
 """
 
-from api from TheHapps
+from TheHapps import api
 
 if __name__ == "__main__":
     app.run()
