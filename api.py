@@ -48,7 +48,7 @@ def get_all():
 	
 	output=[]
 	for q in Event.find(): 
-		output.append({'Event':q['Name'],'Description':q['Description']})
+		output.append({'Name':q['Name'],'Description':q['Description']})
 	
 	return jsonify(output)
 
