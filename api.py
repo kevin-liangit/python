@@ -1,4 +1,5 @@
-#!flask/bin/python
+#!/usr/bin/env python
+
 from flask import Flask, jsonify
 from pymongo import MongoClient
 from flask_pymongo import PyMongo
