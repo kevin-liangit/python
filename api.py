@@ -15,8 +15,10 @@ import os
 app = Flask(__name__)
 
 app.config['MONGO_DBNAME']='TheHapps'
-mongo=PyMongo(app)
-
+app.config['MONGO_URI']="ds163181.mlab.com"
+app.config['MONGO_PORT']="63181"
+app.config['MONGO_USERNAME']="heroku_q3r859wz"
+app.config['MONGO_URI']="t86dtebektbren389fktmqo8mi"
 
 tasks = [
     {
